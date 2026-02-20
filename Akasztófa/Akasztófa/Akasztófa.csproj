@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>imageedit_1_5328049691.ico</ApplicationIcon>
+    <UseWindowsForms>False</UseWindowsForms>
+    <StartupObject>Akasztófa.App</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="imageedit_1_5328049691.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+</Project>

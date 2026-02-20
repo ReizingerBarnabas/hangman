@@ -1,0 +1,157 @@
+﻿<Window x:Class="Akasztófa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        xmlns:local="clr-namespace:Akasztófa"
+        mc:Ignorable="d"
+        Background="Green"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen" 
+        Title="Akasztófa 3.0" Height="730" Width="700" Icon="C:\hangman\forrásfájlok\imageedit_1_5328049691.ico" Cursor="Arrow" MinHeight="730" MaxHeight="730" MinWidth="700" MaxWidth="700" >
+    <Grid Margin="0,0,0,0" Background="#FF0A640D" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Image x:Name="kep" Source="C:\hangman\forrásfájlok\sorozat.jpg" Margin="100,10,100,400"  />
+        <TextBlock x:Name="a" Text="" TextDecorations="underline" Margin="110,240,550,430" FontSize="30" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="b" Text="" TextDecorations="underline" Margin="140,240,520,430" FontSize="30" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="c" Text="" TextDecorations="underline" Margin="170,240,490,430" FontSize="30" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="d" Text="" TextDecorations="underline" Margin="200,240,460,430" FontSize="30" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="ee" Text="" TextDecorations="underline" Margin="230,240,430,430" FontSize="30" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="f" Text="" TextDecorations="underline" Margin="260,240,400,430" FontSize="30" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="g" Text="" TextDecorations="underline" Margin="290,240,370,430" FontSize="30" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="h" Text="" TextDecorations="underline" Margin="320,240,340,430" FontSize="30" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="iii" Text="" TextDecorations="underline" Margin="350,240,310,430" FontSize="30" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="jjj" Text="" TextDecorations="underline" Margin="380,240,280,430" FontSize="30" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="k" Text="" TextDecorations="underline" Margin="410,240,250,430" FontSize="30" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="l" Text="" TextDecorations="underline" Margin="440,240,220,430" FontSize="30" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock x:Name="m" Text="" TextDecorations="underline" Margin="470,240,190,430" FontSize="30" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="n" Text="" TextDecorations="underline" Margin="500,240,160,430" FontSize="30" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="o" Text="" TextDecorations="underline" Margin="530,240,130,430" FontSize="30" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="p" Text="" TextDecorations="underline" Margin="560,240,100,430" FontSize="30" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Button x:Name="A" Content="A"  Click="A_Click" HorizontalAlignment="Left" Margin="145,330,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Aborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="145,327,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="Á" Content="Á" Click ="Á_Click" HorizontalAlignment="Left" Margin="215,330,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Áborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="215,327,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="B" Content="B" Click="B_Click" HorizontalAlignment="Left" Margin="285,330,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Bborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="285,327,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="C" Content="C" Click="C_Click" HorizontalAlignment="Left" Margin="355,330,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Cborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="355,327,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="D" Content="D" Click="D_Click" HorizontalAlignment="Left" Margin="425,330,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Dborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="425,327,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="E" Content="E" Click="E_Click" HorizontalAlignment="Left" Margin="495,330,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Eborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="495,327,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="É" Content="É" Click="É_Click" HorizontalAlignment="Left" Margin="145,395,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Éborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="145,392,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="F" Content="F" Click="F_Click" HorizontalAlignment="Left" Margin="215,395,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Fborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="215,392,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="Gé" Content="G" Click="Gé_Click" HorizontalAlignment="Left" Margin="285,395,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Gborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="285,392,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="H" Content="H" Click="H_Click" HorizontalAlignment="Left" Margin="355,395,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Hborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="355,392,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="I" Content="I" Click="I_Click" HorizontalAlignment="Left" Margin="425,395,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Iborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="425,392,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="Í" Content="Í" Click="Í_Click" HorizontalAlignment="Left" Margin="495,395,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Íborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="495,392,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="J" Content="J" Click="J_Click" HorizontalAlignment="Left" Margin="145,460,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Jborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="145,460,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="Ká" Content="K" Click="Ká_Click" HorizontalAlignment="Left" Margin="215,460,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Kborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="215,460,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="L" Content="L" Click="L_Click" HorizontalAlignment="Left" Margin="285,460,0,0" VerticalAlignment="Top" Height="50" Width="60"  Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Lborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="285,460,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="M" Content="M" Click="M_Click" HorizontalAlignment="Left" Margin="355,460,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Mborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="355,460,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="N" Content="N" Click="N_Click" HorizontalAlignment="Left" Margin="425,460,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Nborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="425,460,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="O" Content="O" Click="O_Click" HorizontalAlignment="Left" Margin="495,460,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Oborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="495,460,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="Ó" Content="Ó" Click="Ó_Click" HorizontalAlignment="Left" Margin="145,525,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Óborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="145,522,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="Ö" Content="Ö" Click="Ö_Click" HorizontalAlignment="Left" Margin="215,525,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E" />
+        <Border x:Name="Öborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="215,521,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="Ő" Content="Ő" Click="Ő_Click" HorizontalAlignment="Left" Margin="285,525,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Őborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="285,521,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="P" Content="P" Click="P_Click" HorizontalAlignment="Left" Margin="355,525,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Pborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="355,521,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="Q" Content="Q" Click="Q_Click" HorizontalAlignment="Left" Margin="425,525,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Qborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="426,521,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="R" Content="R" Click="R_Click" HorizontalAlignment="Left" Margin="495,525,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E" />
+        <Border x:Name="Rborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="495,522,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="S" Content="S" Click="S_Click" HorizontalAlignment="Left" Margin="145,590,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Sborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="145,590,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="T" Content="T" Click="T_Click" HorizontalAlignment="Left" Margin="215,590,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Tborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="215,590,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="U" Content="U" Click="U_Click" HorizontalAlignment="Left" Margin="285,590,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Uborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="285,590,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="Ú" Content="Ú" Click="Ú_Click" HorizontalAlignment="Left" Margin="355,590,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Úborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="355,590,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="Ü" Content="Ü" Click="Ü_Click" HorizontalAlignment="Left" Margin="425,590,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Üborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="426,590,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="Ű" Content="Ű" Click="Ű_Click" HorizontalAlignment="Left" Margin="495,590,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Űborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="495,590,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="V" Content="V" Click="V_Click" HorizontalAlignment="Left" Margin="180,655,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Vborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="180,652,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="W" Content="W" Click="W_Click" HorizontalAlignment="Left" Margin="250,655,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Wborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="250,652,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="X" Content="X" Click="X_Click" HorizontalAlignment="Left" Margin="320,655,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E"/>
+        <Border x:Name="Xborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="320,652,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="Y" Content="Y" Click="Y_Click" HorizontalAlignment="Left" Margin="390,655,0,0" VerticalAlignment="Top" Height="50" Width="60" Foreground="white" Background="#0AA70E" />
+        <Border x:Name="Yborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="390,652,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="Z" Content="Z" Click="Z_Click" HorizontalAlignment="Left" Margin="460,655,0,0" VerticalAlignment="Top" Height="50" Width="60"  Foreground="white" Background="#0AA70E" />
+        <Border x:Name="Zborder" BorderBrush="#FFCBCB24" BorderThickness="5" HorizontalAlignment="Left" Height="0" Margin="460,652,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button Name="plus" HorizontalAlignment="Center" Margin="638,525,0,147" VerticalAlignment="Center" FontSize="15" Content="    +" Height="50" Width="54"  Foreground="white" Background="#0AA70E" Click="Button_Click"/>
+        <Button Name="play" HorizontalAlignment="Center" VerticalAlignment="Top" Content="ÚJ FELADVÁNY" Width="130" Height="50" Margin="560,460,0,0" Foreground="white" Background="#0AA70E" Click="Gomb_Click2"/>
+        <TextBox x:Name="box"  Width="95" Height="50" Margin="560,525,37,147" FontSize="25"/>
+        <TextBlock x:Name="pont" Text="" HorizontalAlignment="Right" Margin="0,333,2,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="119" FontSize="36" Foreground="White"/>
+        <Button Name="fooldal" HorizontalAlignment="Center" VerticalAlignment="Top" Content="FŐOLDAL" Width="130" Height="50" Margin="560,395,0,0" Foreground="white" Background="#0AA70E" Click="fooldal_Click"/>
+        <TextBlock Name="nev" Text="" Height="50" Width="80" Margin="582,-500,0,0" Foreground="White" FontSize="20" TextAlignment="Center"/>
+        <Button x:Name="kijelentkezes" Content="KIJELENTKEZÉS" VerticalAlignment="Top" Height="50" Width="90"  Background="#FF0AA70E" Foreground="White" Margin="582,161,0,0" Click="kijelentkezes_Click" />
+
+        <StackPanel x:Name="panel" Height="730" Background="#FF0A640D" Margin="0,6">
+
+        </StackPanel>
+        <Button x:Name="korte" Content="" HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top" Width="75" Height="0" BorderBrush="#FF0E800A" Click="korte_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="C:\hangman\forrásfájlok\imageedit_4_8309720343.ico"/>
+            </Button.Background>
+        </Button>
+
+        <Button x:Name="korte2" Content="" HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top" Width="75" Height="0" BorderBrush="#FF0E800A">
+            <Button.Background>
+                <ImageBrush ImageSource="C:\hangman\forrásfájlok\imageedit_4_5630021127.ico"/>
+            </Button.Background>
+        </Button>
+
+        <Label Height="0" Width="39" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="sugopontdarab" Content="11" Margin="46,105,0,0" Background="#FF0AA70E" Foreground="White" FontSize="20"/>
+
+        <Image Height="0"  x:Name="gif" gif:ImageBehavior.AnimatedSource="C:\hangman\forrásfájlok\1458280_b58bc.gif" Margin="-15,0,15,0"/>
+
+        <TextBlock x:Name="pont2" Text="" HorizontalAlignment="Right" Margin="0,409,228,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="0" Width="119" FontSize="36" Foreground="White"/>
+
+        <TextBlock Height="0" x:Name="ponteredmeny" Foreground="White" FontSize="36" TextAlignment="Center" Margin="124,344,123,248" Background="#FF0A640A" ><Run Text="Elértél 100 pon"/><Run Text="tot"/><Run Text="!"/></TextBlock>
+        <TextBox x:Name="textbox" HorizontalAlignment="Left" Height="0" Margin="562,521,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="textbox_TextChanged_1"/>
+        <Image Source="C:\hangman\forrásfájlok\akasztofa.png" Name="hangman" Margin="0,-200,0,0" Height="200" OpacityMask="#FF0A640D"/>
+        <Button HorizontalAlignment="Center" VerticalAlignment="Top" x:Name="ujf" Content="BEJELENTKEZÉS" Click="Gomb_Click" Width="150" Height="50" Margin="0,544,0,0" Foreground="White" Background="#0AA70E"/>
+        <Button x:Name="vasarlas" HorizontalAlignment="Left" VerticalAlignment="Top" Height="0" Width="75" Margin="10,161,0,0" Content="VÁSÁRLÁS" Background="#FF0AA70E" Foreground="White" Click="Button_Click_6"/>
+        <Button Content="X" Margin="642,0,0,673" Click="Button_Click_3" Foreground="white" Background="#FF0AA70E"/>
+        <TextBlock x:Name="felhasznalonevIras" HorizontalAlignment="Center" VerticalAlignment="Top" Text="Felhasználónév" Height="20" Width="150" Margin="0,372,0,0" Foreground="White"/>
+        <TextBox  HorizontalAlignment="Center" VerticalAlignment="Top" x:Name="felhasznalonev" Height="50" Width="150" Margin="0,396,0,0" FontSize="30" />
+        <TextBlock x:Name="jelszoIras" HorizontalAlignment="Center" VerticalAlignment="Top" Text="Jelszó" Height="20" Width="150" Margin="0,455,0,0" Foreground="White"/>
+        <PasswordBox HorizontalAlignment="Center" VerticalAlignment="Top" x:Name="jelszo" Height="50" Width="150" Margin="0,482,0,0" FontSize="30" />
+        <!--<TextBox HorizontalAlignment="Center" VerticalAlignment="Top" x:Name="jelszoMutat" Height="50" Width="150" Margin="0,482,0,0" TextWrapping="Wrap" Visibility="Collapsed" />-->
+        <TextBlock x:Name="bejelentkezveMaradIras" Height="60" TextAlignment="Right" Text="Bejelentkezve maradok" Foreground="White" Margin="435,516,123,153"/>
+        <CheckBox x:Name="bejelentkezveMarad" Margin="582,518,86,177" Height="30"/>
+
+        <StackPanel x:Name="regisztraciosPanel" Background="Green" Margin="66,374,86,26" Height="0" >
+            <TextBlock Text="Felhasználónév" Height="20" Width="150" Foreground="White" Margin="-200,0,0,0"/>
+            <TextBox x:Name="ujfelhasznaloNev" Width="150" Height="50" Margin="-200,0,0,0" FontSize="30"/>
+            <TextBlock Text="Jelszó" Height="20" Width="150" Foreground="White" Margin="-200,0,0,0"/>
+            <PasswordBox x:Name="ujJelszo" Height="50" Width="150" Margin="-200,0,0,0" FontSize="30"/>
+            <TextBlock Text="Becenév" Height="20" Width="150" Foreground="White" Margin="200,-260,0,0"/>
+            <TextBox x:Name="becenev" Height="50" Width="150" Margin="200,-190,0,0" FontSize="30"/>
+        </StackPanel>
+        <Button HorizontalAlignment="Center" VerticalAlignment="Top" x:Name="regisztracio" Content="REGISZTRÁCIÓ" Height="50" Width="150" Margin="0,606,0,0" Background="#FF0AA70E" Foreground="White" Click="regisztracio_Click" />
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="vissza" Content="VISSZA" Height="0" Width="50" Margin="429,606,0,0" Background="#FF0AA70E" Foreground="White" Click="vissza_Click"/>
+
+    </Grid>
+</Window> 
