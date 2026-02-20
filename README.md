@@ -5,3 +5,7 @@ Fontos, hogy a szoftvert a Windows gyökér könyvtárba telepítse, különben 
 # Hangman Game
 An advanced Hangman game featuring user authentication (login/registration) and custom word creation. Players earn points for each win, which can be spent in an in-game store to purchase hints after reaching a 100-point threshold.
 It is important to install the software in the Windows root directory, otherwise the program will not work!
+
+![alt text](/forrásfájlok/Képernyőkép%202026-02-20%20164810.png "game1")
+![alt text](/forrásfájlok/Képernyőkép%202026-02-20%20164843.png "game2")
+![alt text](/forrásfájlok/Képernyőkép%202026-02-20%20164637.png "game3")
