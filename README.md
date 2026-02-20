@@ -8,4 +8,4 @@ It is important to install the software in the Windows root directory, otherwise
 
 ![alt text](/forrásfájlok/Képernyőkép%202026-02-20%20164810.png "game1")
 ![alt text](/forrásfájlok/Képernyőkép%202026-02-20%20164843.png "game2")
-![alt text](/forrásfájlok/Képernyőkép%202026-02-20%20164637.png "game3")
+![alt text](/forrásfájlok/Képernyőkép%202026-02-20%20164638.png "game3")
