@@ -1,5 +1,5 @@
 # Akasztófa játék
-Egy továbbfejlesztett akasztófa játék, amely regisztrációs és bejelentkezési rendszerrel rendelkezik. A felhasználók saját feladványokat hozhatnak létre, a sikeres játékokért pedig pontokat kapnak, amikből a boltban (100 pont felett) segítségeket vásárolhatnak.
+Egy továbbfejlesztett akasztófa játék, melynek célja hogy kitaláljuk a szót anélkül, hogy felakasztanánk a bábut. Azonban regisztrációs és bejelentkezési rendszerrel is rendelkezik. A felhasználók saját feladványokat hozhatnak létre, a sikeres játékokért pedig pontokat kapnak, amikből a boltban (100 pont felett) segítségeket vásárolhatnak.
 Fontos, hogy a szoftvert a Windows gyökér könyvtárba telepítse, különben a program nem fog működni!
 
 # Hangman Game
